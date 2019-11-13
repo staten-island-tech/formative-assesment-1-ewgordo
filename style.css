@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right bottom,
+    rgba(102,178,255,0.4),
+    rgba(51,153,255,0.4),
+    url(media/flat-earth.jpg));
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    height: 100vh; 
+}
+
+h1{
+    text-transform: uppercase;
+}
