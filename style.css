@@ -1,17 +1,34 @@
 body{
-    background-image: linear-gradient(to right bottom,
+    background-image: linear-gradient(
+        to right bottom,
     rgba(102,178,255,0.4),
-    rgba(51,153,255,0.4),
-    url(media/flat-earth.jpg));
-    background-position:center;
+    rgba(10, 60, 110, 0.4),
+    ), 
+    url(media/flat-earth.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div{
     height: 100vh; 
+    text-align: center;
 }
 
 h1{
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
 }
+
+ul{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    filter: drop-shadow(5px 5px 5px black);
+    height: 300px;
+  }
