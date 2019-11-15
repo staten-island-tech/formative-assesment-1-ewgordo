@@ -1,3 +1,9 @@
+html {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: linear-gradient(
         to right bottom,
@@ -20,15 +26,24 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     font-size: 50px;
+    color: cyan;
+    
 }
 
 ul{
-    color: white;
+    color: pink;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 img {
     filter: drop-shadow(5px 5px 5px black);
     height: 300px;
+  }
+
+
+  .header{
+      height: 30vh;
+      background-color: rgba(100, 100, 100, .8);
+      border: 3px solid black;
   }
